@@ -16,6 +16,8 @@ const addInput = document.getElementById("add-input")
 const addButton = document.getElementById("add-btn")
 const itemsList = document.getElementById("items-list")
 
+const menu = document.getElementById("menu")
+
 onValue(shopingListInDB, (snapshot) => {
    if (snapshot.exists()){
         itemsList.innerHTML = "";
@@ -53,5 +55,11 @@ function appendInput(inputValue) {
     itemsList.append(newEl);
 }
 
-
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+menu.addEventListener("click", () => {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+})

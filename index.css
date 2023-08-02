@@ -11,7 +11,7 @@ body{
 .container{
     margin: auto;
     width: fit-content;
-    padding: 60px 50px;
+    padding: 60px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +30,7 @@ body{
     border-radius: 8px;
     font-size: 20px;
     text-align: center;
-    font-family: fantasy;
+    font-family: 'Open Sans', sans-serif; 
 }
 .add-btn{
     width: 100%;
@@ -73,6 +73,7 @@ body{
     position: relative;
     width: 100%;
     margin-bottom: -30px;
+    justify-content: space-evenly;
   }
   
 .topnav #myLinks {
