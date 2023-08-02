@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif; 
+    background-color: #EFF2F5;
+    user-select: none;
+}
+.heading{
+  text-align: center;
+}
+.container{
+    margin: auto;
+    width: fit-content;
+    padding: 60px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    max-width: 320px;
+    background-color: #EFF2F5;
+    margin-bottom: 30px;
+}
+.add-input{
+    width: 90%;
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: fantasy;
+}
+.add-btn{
+    width: 100%;
+    background-color: #AC485A;
+    color: white;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+}
+.add-btn:hover{
+    background-color: #432000;
+}
+.items-list{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: fit-content;
+}
+.items-list li{
+    list-style: none;
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 15px;
+    flex-grow: 1;
+    text-align: center;
+}
+.items-list li:hover{
+ background-color: #FFECC7;
+}
+
+/* -------------------------------- */
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-bottom: -30px;
+  }
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.menu-items a{
+    color: black;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 15px;
+    flex-grow: 1;
+    margin: 10px;
+    text-align: center;
+}
+.menu-items-1{
+    background-color: #FFFDF8;
+}
+.menu-items-2{
+    background-color: #f9e5e8;
+}
+.menu-items-3{
+    background-color: #e2e5f4;
+}
+.menu-items-1:hover{
+    background-color: #FFECC7;
+}
+.menu-items-2:hover{
+    background-color: #ffc7d0;
+}
+.menu-items-3:hover{
+    background-color: #cdc7ff;
+}
+  
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    color: black;
+}  
+.active {
+    text-align: center;
+}
+.active h1{
+    margin-top: -12px;
+    color: black;
+
+}
