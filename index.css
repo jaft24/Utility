@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif; 
+    font-family:'Courier New', Courier, monospace;
+    font-weight:lighter; 
     background-color: #EFF2F5;
     user-select: none;
 }
@@ -11,13 +12,13 @@ body{
 .container{
     margin: auto;
     width: fit-content;
-    padding: 60px 0px;
+    padding: 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 15px;
-    max-width: 320px;
+    max-width: 350px;
     background-color: #EFF2F5;
     margin-bottom: 30px;
 }
@@ -30,7 +31,7 @@ body{
     border-radius: 8px;
     font-size: 20px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif; 
+    font-family:monospace;
 }
 .add-btn{
     width: 100%;
@@ -41,7 +42,7 @@ body{
     border-radius: 8px;
     font-size: 20px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif; 
+    font-family:monospace;
 }
 .add-btn:hover{
     background-color: #432000;
@@ -51,7 +52,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    max-width: fit-content;
+    width: fit-content;
 }
 .items-list li{
     list-style: none;
@@ -95,6 +96,7 @@ body{
     flex-grow: 1;
     margin: 10px;
     text-align: center;
+    font-family: monospace;
 }
 .menu-items-1{
     background-color: #FFFDF8;
@@ -125,7 +127,7 @@ body{
     text-align: center;
 }
 .active h1{
-    margin-top: -12px;
+    margin-top: -5px;
     color: black;
-
+    font-weight: lighter;
 }
