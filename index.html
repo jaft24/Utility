@@ -23,7 +23,7 @@
             </a>
             <a href="#home" class="active"><h1>Groceries</h1></a>
             <div class="menu-items" id="myLinks">
-              <a class="menu-items-1" href="#news">Groceries &nbsp; 🛒</a>
+              <a class="menu-items-1" href="#news">Groceries &nbsp; 🛒 </a>
               <a class="menu-items-3" href="#about">Exercise &nbsp; 🚴 </a>
               <a class="menu-items-2" href="#contact">Movies &nbsp; 🎬 </a>
             </div>
@@ -32,7 +32,24 @@
 
         <img src="assets/mochi_shopping.png" alt="Kitten Shopping Icon" width="150px">
         <p> Hello. Let's start typing your list below, and double tap if you want to remove them.</p>
+       
+        <div  class="user-input">
         <input id="add-input" class="add-input" type="text" placeholder="Bread">
+        <div class="amount-input-container">
+            <input id="amount" class="amount-input" type="number" min="1" max="99" step="1" placeholder="1">
+            <div class="amount-btns">
+            <button id="increase-amount">△</button>
+            <button id="decrease-amount">▽</button>
+            </div>
+        </div>
+        <select class="add-unit">
+            <option value="Qty"> Qty </option>
+            <option value="Lbs"> Lbs </option>
+            <option value="Gal"> Gal </option>
+            <option value="Pack"> Pack </option>
+            <option value="Dzn"> Dzn </option>
+        </select>
+        </div>
         <button id="add-btn" class="add-btn"> Add to Cart </button>
         <p class="items-list" id="items-list"></p>
     </div>
